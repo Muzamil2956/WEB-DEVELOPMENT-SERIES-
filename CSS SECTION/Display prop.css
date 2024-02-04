@@ -1,0 +1,9 @@
+span {
+    background-color: lime;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    /* padding  and margin will be applied only on left and right  and height,width will not be applied*/
+    padding: 50px;
+    margin: 50px;
+}
