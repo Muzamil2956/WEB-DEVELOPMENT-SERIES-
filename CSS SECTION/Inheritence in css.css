@@ -1,0 +1,7 @@
+div {
+    background-color: blue;
+}
+/* Gets color from parent */
+button {
+    background-color: inherit;   
+}

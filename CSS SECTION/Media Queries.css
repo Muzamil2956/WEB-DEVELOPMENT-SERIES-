@@ -1,0 +1,28 @@
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media (min-width: 400px)
+{
+    h1 {
+        background-color: red;
+    }
+}
+@media (max-width: 700px)
+{
+    h1 {
+        background-color: blue;
+    }
+}
+/* Range */
+@media (min-width:200px) and (max-width:300px) {
+    h1{
+        background-color: magenta;
+    }
+}
+/* or */
+@media (orientation:landscape){
+    h1 {
+        background-color: aqua;
+    }
+}
