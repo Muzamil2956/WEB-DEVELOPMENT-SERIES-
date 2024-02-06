@@ -1,0 +1,13 @@
+/* here specficity = 0 id , 0 class, 1 element  */
+h1 {
+    color: pink;   
+}
+/* it will display yellow color because it has higher priority as id > class > element */
+/* here specficity = 1 id, 0 classs, 1 element  */
+#greet {
+    color: yellow;    
+}
+/* here specficity = 0 id, 1 classs, 0 element  */
+.myclass {
+    color: brown;
+}
