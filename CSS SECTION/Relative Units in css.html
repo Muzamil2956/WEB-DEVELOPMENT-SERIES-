@@ -1,0 +1,31 @@
+<!---1.-Percentage :-often used to define a size as relative to an element's parent object
+E.g width:33% //relative to parent -
+     2. EM(m) :-relative to font size in case of typographical prop like font-size and font size of element itself
+      in case of other prop like  width-->
+
+      <!-- Drawback of unit em is Snowball effect is nested element -->
+
+      <!-- Here come another unit ie Rem (Root Em):- relative to font size of root element  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units</title>
+    <link rel="stylesheet" href="Relative units.css">
+</head>
+<body>
+    <h1>Heading</h1>
+    <div id="outer">
+        <div id="inner"></div>
+    </div>
+
+    <div id="outers">
+        This is outer
+        <div id="inners">
+This is inner
+        </div>
+    </div>
+    <button>Click Me</button>
+</body>
+</html>

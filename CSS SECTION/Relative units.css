@@ -1,0 +1,44 @@
+h1 {
+    border: 2px solid black;
+    width: 50%;
+}
+#outer {
+    background-color: aqua;
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 10px;
+}
+#inner {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border: 2px solid pink;
+    margin: 50px;
+}
+#outers {
+height: 400px;
+width: 400px;
+border:2px solid black;
+background-color: brown;
+font-size: 20px;
+
+}
+#inners {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blueviolet;
+    background-color: aqua ;
+    /* <!-- 2 times larger than outers ie parent--> */
+    font-size: 2em;
+    /* here padding will be related to font size of inner */
+    padding: 1em;
+}
+button {
+    font-size: 50px;
+    border-radius: 20px;
+    border: 4px solid green ;
+    /* Here padding will be relative to dont size  */
+    padding-left: 1em;
+    padding-right: 1em;
+}

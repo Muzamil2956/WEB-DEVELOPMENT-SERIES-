@@ -1,0 +1,15 @@
+/* 1. <!--Inline Styles=writing style directly inline on each element 
+<h1 style="color:red">Apna College</h1> */
+
+ /* 2. using style tag like <style>
+ style is added using the <style> element in the same document 
+
+ <style>
+ h1 {
+    color: red;
+ } */
+
+
+ /* 3. External Stylesheet:- Writing css in a seperate document and linking it with html file
+ <head>
+ <link> rel="stylesheet" href="style.css"> */
